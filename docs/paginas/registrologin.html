@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+>
+    <!-- bootstrap -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/eslilosregistros.css">
+</head>
+
+<body>
+    <div class="container">
+        <p class="h2 text-center">Formulario de Registro</p>
+        <form id="login-form" class="form" method="post">
+            <div class="preview text-center">
+                <img class="preview-img" src="http://simpleicon.com/wp-content/uploads/account.png" alt="Preview Image"
+                    width="200" height="200" />
+
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input class="form-control" type="text" name="nombre" id="nombre" required
+                    placeholder="ingresa tu nombre" >
+
+            </div>
+            <div class="form-group">
+                <label for="mail">Email:</label>
+                <input class="form-control" type="email" name="email" id="mail" required
+                    placeholder="Ingresa tu email" >
+
+            </div>
+            <div class="form-group">
+                <label for="contrasena">Contraseña:</label>
+                <input class="form-control" type="password" name="contrasena" id="contrasena" required
+                    placeholder="Ingresa tu contraseña" />
+
+            </div>
+            <div class="form-group">
+                <!-- link to login -->
+                <a href="login.html">
+                    <input type="text" name="Ingresar" class="btn btn-info btn-md" value="Confirmar">
+                </a>
+            </div>
+
+        </form>
+    </div>
+    
+    <script src="../js/validadoRegistro.js"></script>
+    <script src="../js/mensajes_espa.js"></script>
+</body>
+
+</html>
