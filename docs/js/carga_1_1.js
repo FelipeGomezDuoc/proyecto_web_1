@@ -3,7 +3,7 @@ $('#submit-form').click(function(event) {
     event.preventDefault();
     var movie = $("#movie").val();
 
-            // http://www.omdbapi.com/?t=godfather&apikey=2f72185
+            
    $.ajax({
       url: 'http://www.omdbapi.com/?t='+movie+'&apikey=2f72185',
       data: {
